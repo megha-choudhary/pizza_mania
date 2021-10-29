@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "html": "^1.0.0",
+    "init": "^0.1.2",
+    "mongoose": "^6.0.4",
+    "nodemon": "^2.0.6",
+    "pug": "^3.0.0"
+  },
+  "name": "megs_the_foodie",
+  "version": "1.0.0",
+  "description": "this site is for foodies",
+  "main": "foodie.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "megs",
+  "license": "ISC",
+  "keywords": [
+    "megs"
+  ]
+}
