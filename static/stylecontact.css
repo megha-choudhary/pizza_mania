@@ -1,0 +1,58 @@
+#nice{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(245, 203, 179);
+}
+
+
+.class{
+    height: 20vh;
+    widows: 50vw;
+}
+
+#normal{
+    background: center/cover no-repeat url("/static/bg.png") ;
+    height: 80vh;
+    width: 99vw;
+    background-color: tomato;
+}
+.mob{
+   border: none;
+    background: none;
+    height: 4vh;
+    width: 20vw;
+    padding: 4px;
+    border-bottom: 4px solid rgb(154, 156, 155);
+    color: wheat;
+    
+    
+}
+#myForm input{
+ border-bottom: 1px solid rgb(111, 116, 113);
+}
+button{
+    margin-top: 3pt;
+    background: none;
+    border: 2px solid rgb(116, 80, 139);
+    cursor: pointer;
+}
+:placeholder-shown{
+    color: crimson;
+}
+.myform{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
