@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    font-size: 15px;
+    margin: 0px;
+    font-family:'Dancing Script', cursive; 
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+#navbar li{
+    list-style: none;
+}
+#navbar a{
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+}
+#logo img{
+    height: 40px;
+    width: 50px;
+}
+#logo{
+    display: flex;
+
+}
+#mainsite{
+    background: center/cover no-repeat url("/static/bg.png") ;
+    height:98vh;
+    width: 99vw;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   flex-wrap: wrap;
+   
+}
+#mainsite h1{
+    font-size: 6rem ;
+    background-color: none;
+    margin-bottom:0px;
+    color: white;
+}
+#navbar{
+    margin: 0px;
+}
+.food{
+    
+    height: 10vh;
+    width: 10vw;
+   
+    margin: 3rem;
+}
+#menu{
+    display: flex;
+    margin-top: 0px;
+}
+#life{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(240, 222, 190);
+    
+}
+#life h1{
+    margin-top: 1rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+   font-family:'Dancing Script', cursive;
+    
+    font-weight:100;
+
+}
+.food img{
+    height: 10vh;
+    width: 8vw;
+
+}
+#shiv{
+    margin: 2rem;
+}
+button{
+    background-color:red;
+    color: white;
+    transition-property: background-color;
+    transition-delay: .01s;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+button:hover{
+    background-color: orangered;
+}
+#navbar a:hover{
+    color:rgb(32, 100, 32);
+}
+#popular{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#popular h1{
+    font-size: 3rem;
+}
+#megs{
+    display: flex;
+
+    
+}
+.taste img{
+    height: 40vh;
+    width: 20vw;
+    transition-property: opacity;
+    opacity: 0.8;
+}
+.taste{
+    display: flex;
+    flex-direction: column;
+    border: 6px solid rgb(196, 191, 191); 
+    align-items: center;
+    height: 60vh;
+    width: 20vw;
+    margin-top: 2rem;
+    align-content: center;
+    margin: 3px;
+    flex-wrap: wrap;
+    background-color:  rgb(219, 215, 215);
+}
+.disc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(219, 215, 215);
+}
+.disc h3{
+    color: red;
+}
+.taste img:hover{
+    opacity: 1;
+}
+#orders{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#orders h1{
+ font-size: 3rem;
+}
+textarea{
+    margin-top: 1rem;
+    background-color: rgb(189, 187, 187);
+    border: 3px solid rgb(223, 182, 182);
+}
+#okay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
