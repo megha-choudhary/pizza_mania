@@ -1,0 +1,68 @@
+extends base.pug
+
+
+block script
+  script(src='/static/page.js')
+block style
+  style
+    include ../static/style.css  
+block content
+    section#mainsite 
+     h1 PIZZA MANIA
+     p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, obcaecati?Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, velit.
+    section#life
+     h1 Order Delivery Good Take Out
+     p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores minus natus earum aspernatur unde nihil repellendus accusamus ipsum alias
+     p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam!
+     div#shiv
+      form(name="myForm" action="" onsubmit="return validateForm()" )
+       <input type="text" name="fname">
+       <input type="submit" value="Submit">
+      div#java
+     section#menu 
+      div.food
+       img(src="/static/coff.png")
+       |Bevrages 
+       
+      div.food
+       img(src="/static/burg.png")
+       |Starters
+      div.food 
+       img(src="/static/din.png")
+       |Dinner
+    section#popular
+     h1 Our Popular Dishes
+     p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis cumque labore accusamus! Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+     p Lorem, ipsum dolor sit amet consectetur adipisicing.
+     section#megs
+      div.taste
+       img(src="/static/pic1.png")
+       div.disc
+        h2 Vegie
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a unde consequatur!
+        h3 $100
+      div.taste
+       img(src="/static/pic2.png")
+       div.disc
+        h2 Soups
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Error similique totam commodi.
+        h3 $120
+      div.taste
+       img(src="/static/pic3.png")
+       div.disc
+        h2 Icecream
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sapiente inventore delectus.
+        h3 $99
+      div.taste
+       img(src="/static/pic4.png")
+       div.disc
+        h2 Veg rolls
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ab harum delectus.
+        h3 $300
+    section#orders
+      h1 Yummy Food is waiting fOr yOu
+      div#okay
+       form(name="life",action= "", class= "myForm" onsubmit="return specialfunction()")
+        textarea#now(name="order", cols="80", rows="10" placeholder="place your order")
+        input(type="submit" value="ordernow")
+    
